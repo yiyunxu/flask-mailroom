@@ -2,6 +2,14 @@
 
 Running at [http://serene-gorge-57086.herokuapp.com/donations/](http://serene-gorge-57086.herokuapp.com/donations/).
 
+Implemented option application:
+1. If a user enters a name that does not exist in the database of donors, the donation creation form will be re-displayed and inject a message describing the error. 
+
+2. Allow all visitors to view the page of donations, but require that users login in order to enter a donation. 
+name="admin", password="password"
+name="bob", password="bobbob"
+
+
 ## Your Task
 
 Your task is to:
